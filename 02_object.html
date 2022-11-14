@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // data-types:- 1.primitive_datatype:-
+        //                                NN SS BB U
+        //                                1.NULL
+        //                                2.NUMBER
+        //                                3.STRING
+        //                                4.SYMBOL
+        //                                5.BOOLEAN
+        //                                6.BIGINT
+        //                                7.UNDEFINED
+
+        //             2.NON-PRIMITIVE_DATATYPES:-
+        //                               1.OBJECT
+        
+        const person={
+            fname:"vipin",lname:"prajapat",Id:2401,Rank:1
+        }                       //accessing object value 1
+        document.write(person.fname+"<br>"+person.lname+"<br>"+person.Id+"<br>"+"rank"+person.Rank)
+        document.write("<br>")
+        document.write("<br>")           // accessing object value 2
+        document.write(person["fname"]+"<br>"+person["lname"]+"<br>"+person["Id"]+"<br>"+person["Rank"])
+    </script>
+</body>
+</html>

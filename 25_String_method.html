@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        */
+       var name="Vipin Prajapat"
+       document.write(name.length+"<br>");
+
+       var text="vipin prajapat"
+       document.write(text.toUpperCase()+"<br>")
+
+       var text="VIPIN PRAJAPAT"
+       document.write(text.toLowerCase()+"<br>")
+
+       var name="vipin prajapat"
+       document.write(name.slice(2)+"<br>")      //start from index 2 to end
+
+       var text="vipin prajapat"        //start from index 2 to 3 excluding 4
+       document.write(text.slice(2,4)+"<br>")
+
+       var text="Vipin prajapati"
+       document.write(text.replace("prajapati","Prajapat")+"<br>")
+
+       var a="Tops"
+       var b="Technology"
+       document.write(a.concat(b)+"<br>")
+
+       var name="vipin prajapat"
+       document.write(name.trim()+"<br>")
+
+       var name="Vipin"
+       document.write(name[2]);
+
+       document.write("<br>")
+
+       var x="hello world"   //char at describe that character at which position
+       document.write(x.charAt(8)+"<br>")        
+
+       var x="hello world"
+       document.write(x.charCodeAt(2)+"<br>")
+
+       var x="hello world"
+       document.write(x.search("o")+"<br>")
+
+       var x="hello how are you"
+       document.write(x.indexOf("are")+"<br>")  //here "are" is at 10 index value
+
+       var x="hello guys how are you guys are you there"
+       document.write(x.lastIndexOf("are")+"<br>")
+
+       var x="the rain in the spain mostly in the plain complAin traIn"
+       document.write(x.match(/ain/gi));
+
+       document.write("<br>")
+       var x="I'M Certified Web developer"
+       document.write(x.includes("Certified")+"<br>")
+
+       var x="hey guys how are you"
+       document.write(x.startsWith("hey"))
+       document.write(x.startsWith("how"))
+
+       document.write("<br>")
+
+       var x="hey guys are you being happy with Web development"
+       document.write(x.endsWith("development"))
+       document.write(x.endsWith("happy")+"<br>")
+
+       var name="vipin prajapat"
+       document.write(name.repeat(5)+"<br>")
+
+       document.write("<br>")
+       var name="vipin prajapat"
+       document.write(name.split("")+"<br>")
+
+      var x="hello world"
+      var y=x.length()
+      document.write(y)
+
+
+    </script>
+</body>
+</html>

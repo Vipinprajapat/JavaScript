@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var x=82;
+        document.write(typeof x+"<br>")
+        
+        var x="82";
+        document.write(typeof x+"<br>")
+        
+        var x=Number.parseInt()            //convert string into integer
+        document.write(typeof x+"<br>")
+
+        var x=100.856;
+        document.write(x+"<br>")
+
+        var y=parseFloat(x);       //convert integer to string
+        document.write(y+"<br>")
+        document.write(typeof y+"<br>")
+
+        var x=15.758;               //return value in condition based true or false
+        var y=Number.isFinite(x)
+        document.write(y+"<br>")
+        
+        var x=105.525;             //return true or false whether the given value is integer or not 
+        var y=Number.isInteger(x)
+        document.write(y+"<br>")
+
+        var x=15.8351;             //
+        var y=x.toFixed(2)
+        document.write(y+"<br>")
+
+        var x=85.55;             // 
+        var y=x.toPrecision(2)
+        document.write(y+"<br>")
+
+    </script>
+</body>
+</html>
